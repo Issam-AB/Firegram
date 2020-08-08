@@ -51,3 +51,22 @@ label {
   font-weight: bold;
   font-size: 24px;
 }
+label :hover {
+  background: var(--primary);
+  color: white;
+}
+.output {
+  height: 60px;
+  font-size: 0.8rem;
+}
+.error {
+  color: var(--error);
+}
+
+/* progress bar styles */
+
+.progress-bar {
+  height: 5px;
+  background: var(--primary);
+  margin-top: 20px;
+}
